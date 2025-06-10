@@ -47,6 +47,7 @@ async function getRandomWord() {
 
 function next() 
 {
+    document.getElementById("role").style.display = "block";
     if(currplayer < playernumbers)
         currplayer++;
 
