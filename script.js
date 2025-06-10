@@ -57,3 +57,8 @@ function next()
         document.getElementById("role").innerText = "Word: You are the Imposter!";
     else document.getElementById("role").innerText = `Word: ${word}`;
 }
+
+function hide()
+{
+    document.getElementById("role").style.display = "none";
+}
