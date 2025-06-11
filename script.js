@@ -26,8 +26,6 @@ async function start()
     
     word = await getRandomWord();
 
-    console.log(`Imposter Number: ${imposternum}`);
-
     document.getElementById("playernumber").innerText = `Player Number: ${currplayer}`;
 
     if(currplayer === imposternum)
