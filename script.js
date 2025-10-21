@@ -22,6 +22,9 @@ async function start()
 {
     playernumbers = document.getElementById("playersnumber").value;
 
+    if(playernumbers < 3)
+        alert("Game will not work with less than 3 players");
+
     imposternum = Math.floor(Math.random() * playernumbers) + 1;
     
     word = await getRandomWord();
