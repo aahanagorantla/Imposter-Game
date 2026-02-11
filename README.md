@@ -13,6 +13,7 @@ Setup for a fun party game where one random player becomes the 'imposter' and th
 ## Made Using
 - HTML, CSS, JS
 ## Screenshots
+*UI has been updated minimally after these photos have been taken... no change to functionality
 ### Start Screen
 <img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/e5e3c7df-3b5c-4635-9021-80b677664ddf" /><br>
 ### If you are imposter
